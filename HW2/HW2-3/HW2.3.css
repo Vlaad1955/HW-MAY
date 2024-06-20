@@ -1,0 +1,26 @@
+.containers{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.hade{
+    display:flex;
+    justify-content: center;
+}
+.food{
+    border: 2px solid #333333;
+    border-radius: 5px;
+    margin: 5px;
+    width: 40vh;
+    height:40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.img{
+    width: 20vh;
+    height: 20vh;
+}
