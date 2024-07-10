@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Dancing+Script&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap');
+
+body {
+    margin: 1vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 98vh;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5vw;
+    width: 40vw;
+    height: 90vh;
+    border: 2px solid #a89e8c;
+    overflow: hidden;
+}
+.end{
+    margin: 0.5vw;
+    width: 40vw;
+    height: 10vh;
+    border: 2px solid #a89e8c;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 40vw;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 40vw;
+}
+.in{
+    width: 30vw;
+    height: 5vh;
+    margin: 10px;
+}
+.me{
+    width: 30vw;
+    height: 10vh;
+    background-color: #0074D9;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #3e98b4;
+    margin-bottom: 1vh;
+    font-size: 3ex;
+}
+.Foto{
+    height: 20vh;
+    width: 30vw;
+}
+.P2{
+    font-family: 'Comfortaa', cursive;
+    font-size: 3ex;
+    color: darkgray;
+}
+a{
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+}
+p{
+}
+.P1{
+    display: flex;
+    gap: 1vh;
+    font-weight: bold;
+    color: blue;
+    font-size: 3ex;
+    margin-bottom: 4vh;
+}
+.P3{
+    font-family: 'Comfortaa', cursive;
+    font-size: 3ex;
+}
+.P4{
+    color: #6c61ff;
+}
+.p5{
+    margin: 0;
+}
