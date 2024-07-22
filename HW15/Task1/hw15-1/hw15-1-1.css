@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    #F2 {
+        width: 96vw;
+        height: 58vh;
+    }
+
+    #F3 {
+        margin-top: 1vh;
+        width: 96vw;
+        height: 18vh;
+    }
+    #Start {
+        display: block;
+    }
+}
