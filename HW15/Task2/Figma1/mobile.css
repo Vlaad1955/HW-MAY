@@ -1,24 +1,26 @@
 @media (max-width: 767px){
-
+body{
+    margin: 0;
+}
     .main{
         display: flex;
         width: 375px;
+        height: 583px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 24px;
-        padding: 0;
+        padding-left: 10px;
     }
     .content{
         width: 375px;
-        height: 56vh;
+        height: 65vh;
     }
     .content>div{
         align-items: center;
         justify-content: start;
     }
     .content>div p{
-        font-size: 14px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 400;
         line-height: 140%;
@@ -34,6 +36,7 @@
         font-style: normal;
         font-weight: 700;
         line-height: 120%;
+        margin: 0;
     }
     .content ul{
         font-size: 18px;
@@ -43,8 +46,14 @@
         padding-right: 20px;
     }
     .video{
-        height: auto;
+        height: 35vh;
         width: 100%;
+    }
+    .content button{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
     }
 
 }
