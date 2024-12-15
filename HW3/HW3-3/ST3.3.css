@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: #71a471;
+    height: 100vh;
+}
+h1{
+    font-size: medium;
+}
+p{
+    font-size: small;
+}
+.year{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.month{
+    background-color: #c7e1c7;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 2vh;
+    margin: 2vh;
+    width: 25vh;
+    height: 22vh;
+}
+.month:hover{
+    transition: 1s;
+    width: 25vh;
+    height: 27vh;
+    padding-left: 10vh;
+    padding-right: 5vh;
+    padding-top: 5vh;
+}
+.month:hover h1, .month:hover p {
+    transition: 1s;
+    transform: scale(1.2);
+}

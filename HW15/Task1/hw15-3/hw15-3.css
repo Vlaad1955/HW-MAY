@@ -1,0 +1,44 @@
+*{
+    border-radius: 10px;
+    text-align: center;
+}
+nav{
+    height: 8vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 2vh;
+}
+nav div{
+    height: 6vh;
+    width: 9vw;
+    background-color: blue;
+    color: white;
+}
+body>div{
+    background-color: blue;
+    color: white;
+    width: 98vw;
+    height: 30vh;
+    margin-bottom: 1vh;
+}
+.Article1{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+    gap: 1vh;
+}
+.Article1 div{
+    background-color: blue;
+    color: white;
+    height: 20vh;
+    width: 50%;
+}
+footer{
+    background-color: blue;
+    color: white;
+    width: 98vw;
+    height: 10vh;
+}

@@ -1,0 +1,22 @@
+.div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 2s;
+}
+.rip:hover {
+    border-radius: 50%;
+    transition:2s;
+    background-color: darkgray;
+}
+.Cent{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}

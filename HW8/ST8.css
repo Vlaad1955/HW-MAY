@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-right: 39vw;
+    padding-left: 29vw;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+}
+header ul a{
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+main{
+    height: 87vh;
+    display: flex;
+    background: #FBF6F3;
+}
+.sideL{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sideR{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4vh;
+    padding-left: 3vw;
+}
+main div h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+}
+.dolar{
+    color: #AD0306;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+}
+main div ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+main div ul li{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+}
+.gray{
+    color: #A19FA0;
+}
+.red{
+    color: #B93536;
+}
+.txt{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+

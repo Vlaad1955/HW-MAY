@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#F1 {
+    background-color: #FF5733;
+    height: 17vh;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+
+}
+
+#F2{
+    background-color: #33FF57;
+    height: 39vh;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+}
+
+#F3 {
+    background-color: #5733FF;
+    height: 80vh;
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#F4{
+    background-color: #6c61ff;
+    height: 40vh;
+    width: 32%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#F5{
+    background-color: #ff7d83;
+    height: 40vh;
+    width: 32%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#F6{
+    background-color: #3e98b4;
+    height: 40vh;
+    width: 32%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Start {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    margin-bottom: 1vh;
+}
+#Cont{
+    height: 80vh;
+    width: 80vw;
+    display: block;
+}
+#END{
+    display: flex;
+    height: 40vh;
+    width: 98%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vh;
+    margin-left: 1vh;
+}
+div{
+    border-radius: 15px;
+}
+header{
+    border-radius: 15px;
+}

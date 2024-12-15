@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+table{
+    width: 70%;
+    height: 40vh;
+    border-collapse: collapse;
+}
+thead{
+    background-color: #71a471;
+    color: white;
+    height: 6vh;
+    font-size: 20px;
+}
+tbody tr:nth-child(odd){
+background-color: #c7e1c7;
+}
+th, td {
+    padding-left: 8px; /* Додано відступ зліва */
+}
+tbody tr:hover {
+    background-color: grey;
+}

@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+}
+.Textsmal{
+    margin-left: 4vh;
+}
+.non{
+    text-decoration: none;
+}
+.underground{
+    color: darkgray;
+    font-size: medium;
+}
+.containers{
+    width: 686px;
+    padding: 0;
+    margin-left: 10vh;
+    margin-right: 01vh;
+    line-height: 1.6;
+    font-family: sans-serif;
+
+}

@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    #Cont {
+        width: 100vw;
+        height: 60vh;
+    }
+    #END{
+        width: 100vw;
+        height: 30vh;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #F1{
+        width: 97vw;
+    }
+    #F2{
+        width: 97vw;
+        height: 30vh;
+    }
+    #F3 {
+        width: 97vw;
+        height: 20vh;
+        margin-left: 1vh;
+    }
+    #F4{
+        height: 9vh;
+        width: 9vw;
+    }
+    #F5{
+        height: 9vh;
+        width: 9vw;
+    }
+    #F6{
+        height: 9vh;
+        width: 9vw;
+    }
+    #Start {
+        margin-right: 1vh;
+        display: block;
+    }
+}

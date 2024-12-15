@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+thead{
+    height: 10vh;
+    color: red;
+    font-size: 40px;
+}
+table{
+    width: 50vw;
+    height: 90vh;
+    gap: 30px;
+    border: 2px solid black;
+}
+td{
+    width: 33%;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+}
